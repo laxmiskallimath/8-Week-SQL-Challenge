@@ -3,6 +3,12 @@ create database eight_week_sql_challenge;
 use  eight_week_sql_challenge;
 
 -- ************************** Case Study #1 - Danny's Diner *****************************************--
+CREATE TABLE dannys_diner.sales (
+  customer_id VARCHAR(1),
+  order_date DATE,
+  product_id INTEGER
+);
+
 INSERT INTO sales
   (customer_id, order_date, product_id)
 VALUES
